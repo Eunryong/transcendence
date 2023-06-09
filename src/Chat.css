@@ -1,0 +1,20 @@
+.chat {
+    position: absolute;
+    bottom: 55px;
+    right: 50%;
+}
+
+.message {
+    position: absolute;
+    width : 75%;
+    top: 90px;
+    height: calc(100% - 175px);
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.history {
+    overflow: auto;
+    /* flex-grow: 1; */
+}
